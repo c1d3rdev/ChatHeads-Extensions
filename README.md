@@ -36,7 +36,7 @@ I also send a `debug` message, telling ChatHeads the application was launched.
 
 Next, you'll need to find the message received function. When that is called, we need to parse through the message to find all of the information. This includes `(NSString *) conversationId`, `(NSArray *) recipients`, `(NSString *) message`, and `(NSString *) bundleId`.
 
-Here is an example of what should be sent to ChatHeads. All of these values will change depending on the client application, but it'll work with chatheads, since chatheads will just send this info back to the client app.
+Here is an example of what should be sent to ChatHeads. All of these values will change depending on the client application, but it'll work with ChatHeads, since ChatHeads will just send this info back to the client app.
 
 ```
       [center sendMessageName:@"messageReceived" userInfo:@{
@@ -62,7 +62,7 @@ I've recently been in talks with a team who are working on a web-based solution 
 
 ## Publishing
 
-In chathead's settings, I have a page to display the Available Extensions, then open them in Cydia (or Sileo). If you create an extension, let me know and I'll add it to the list of availible extensions! I can also deploy it to my repo if you're interested.
+In ChatHeads’ settings, I have a page to display the Available Extensions, then open them in Cydia (or Sileo). If you create an extension, let me know and I'll add it to the list of available extensions! I can also deploy it to my repo if you're interested.
 
 If you have any questions, feel free to get in touch.
 
