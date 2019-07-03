@@ -12,7 +12,6 @@ To dump headers for client apps. Install BFDecrypt from level3tjg.github.io. Ope
 Unzip the .ipa
 
 Find the executables you would like to dump the headers for. Facebook was tricky as the main executable is actually empty. Instead, navigate to /Messenger/Frameworks/ where you'll find different frameworks. Inside each framework is a different executable which I was able to dump.
-
 (I have not included any .ipa's or headers due to legal reasons)
 
 Once you have found the executables, run class-dump on them
@@ -25,7 +24,9 @@ You should now have the headers.
 
 The existing tweaks are commented, so take a look at those. Each application is different but I'll outline the main implementation. 
 
-Create a `theos` tweak, filter the BundleID of the target application.
+When creating a `theos` tweak for ChatHeads, it must follow the naming convention of `MH[YourApp]Support.dylib` to allow the package to show up in ChatHeads "Installed Extensions" section. The package name name can be whatever you'd like (eg: `ChatHeads Facebook Messenger Support`, `FB Support`, `FB Messenger for ChatHeads`).
+
+Don't forget to filter the BundleID of the target application.
 
 In the AppDelegate, hook `application:didFinishLaunchingWithOptions:` and create an instance of RBS for `com.c1d3r.messagehub`.
 
