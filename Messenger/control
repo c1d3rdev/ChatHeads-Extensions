@@ -1,0 +1,9 @@
+Package: com.c1d3r.mhfbsupport
+Name: Facebook Messenger Support
+Depends: mobilesubstrate
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Facebook Messenger Support for ChatHeads and MessageHub!
+Maintainer: c1d3r
+Author: c1d3r
+Section: Tweaks (ChatHeads/MessageHub)

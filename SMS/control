@@ -1,0 +1,9 @@
+Package: com.c1d3r.mhsmssupport
+Name: SMS/iMessage Support
+Depends: mobilesubstrate
+Version: 1.1
+Architecture: iphoneos-arm
+Description: SMS/iMessage Support for ChatHeads and MessageHub
+Maintainer: c1d3r
+Author: c1d3r
+Section: Tweaks (ChatHeads/MessageHub)

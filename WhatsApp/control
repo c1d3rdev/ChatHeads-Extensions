@@ -1,0 +1,9 @@
+Package: com.c1d3r.mhwasupport
+Name: WhatsApp Support
+Depends: mobilesubstrate
+Version: 1.1
+Architecture: iphoneos-arm
+Description: WhatsApp Support for ChatHeads and MessageHub!
+Maintainer: c1d3r
+Author: c1d3r
+Section: Tweaks (ChatHeads/MessageHub)
