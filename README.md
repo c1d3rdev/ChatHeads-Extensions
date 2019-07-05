@@ -42,13 +42,13 @@ Here is an example of what should be sent to ChatHeads. All of these values will
       [center sendMessageName:@"messageReceived" userInfo:@{
         @"conversationId" : @"00000001",
         @"recipients" : @[
-                           {
+                           @{
                              @"name": @"c1d3r",
                              @"id": @"abc123",
                              @"imageData": UIImagePNGRepresentation([UIImage new])
                            }
                          ],
-        @"message" : @"Hello there! This is an example of a message being recived by the client application!"
+        @"message" : @"Hello there! This is an example of a message being recived by the client application!",
         @"bundleId" : [UIApplication displayIdentifier]
       }];
 
